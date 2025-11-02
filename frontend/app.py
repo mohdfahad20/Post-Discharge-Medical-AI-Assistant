@@ -89,11 +89,6 @@ with st.sidebar:
     st.subheader("Session")
     st.text(f"ID: {st.session_state.session_id[:8]}...")
     
-    if st.session_state.patient_name:
-        st.success(f"👤 Patient: {st.session_state.patient_name}")
-    else:
-        st.info("👤 No patient identified yet")
-    
     st.divider()
     
     # Controls
@@ -259,4 +254,4 @@ if prompt := st.chat_input("Type your message here..."):
 
 # Footer
 st.divider()
-st.caption("Powered by Groq (Llama 3.3 70B), LangGraph, and ChromaDB | DataSmith AI GenAI Intern Assignment")
+st.caption("Powered by Groq (Llama 3.3 70B), LangGraph, and FAISS | DataSmith AI GenAI Intern Assignment")
