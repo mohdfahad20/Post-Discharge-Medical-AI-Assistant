@@ -49,5 +49,6 @@ htmlcov/
 .streamlit/
 
 # Keep directory structure
+!data/.comprehensive-clinical-nephrology.pdf
 !data/.gitkeep
 !logs/.gitkeep
