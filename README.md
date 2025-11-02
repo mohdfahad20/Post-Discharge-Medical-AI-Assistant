@@ -84,7 +84,7 @@ This system provides intelligent post-discharge care through a multi-agent archi
                     ↓
     ┌───────────────┴────────────────┐
     ↓                                ↓
-┌─────────────────┐          ┌──────────────────┐
+┌──────────────────┐          ┌──────────────────┐
 │  FASTAPI         │          │  STREAMLIT       │
 │  (Port 8000)     │◄────────►│  (Port 8501)     │
 │                  │   REST   │                  │
@@ -98,22 +98,22 @@ This system provides intelligent post-discharge care through a multi-agent archi
 │                                     │
 │  State Machine (workflow.py)        │
 │      ↓                              │
-│  ┌──────────┐    ┌──────────┐     │
-│  │Reception │───►│ Clinical │     │
-│  │  Agent   │    │  Agent   │     │
-│  └────┬─────┘    └────┬─────┘     │
-│       │               │            │
-│       ↓               ↓            │
-│  ┌─────────┐    ┌─────────┐      │
-│  │ Patient │    │   RAG   │      │
-│  │   DB    │    │ System  │      │
-│  └─────────┘    └────┬────┘      │
-│                      │            │
-│                      ↓            │
-│                 ┌─────────┐      │
-│                 │   WEB   │      │
-│                 │ SEARCH  │      │
-│                 └─────────┘      │
+│  ┌──────────┐    ┌──────────┐       │
+│  │Reception │───►│ Clinical │       │
+│  │  Agent   │    │  Agent   │       │
+│  └────┬─────┘    └────┬─────┘       │
+│       │               │             │
+│       ↓               ↓             │
+│  ┌─────────┐    ┌─────────┐         │
+│  │ Patient │    │   RAG   │         │
+│  │   DB    │    │ System  │         │
+│  └─────────┘    └────┬────┘         │
+│                      │              │
+│                      ↓              │
+│                 ┌─────────┐         │
+│                 │   WEB   │         │
+│                 │ SEARCH  │         │
+│                 └─────────┘         │
 └─────────────────────────────────────┘
          ↓
 ┌─────────────────────────────────────┐
@@ -165,8 +165,8 @@ tavily-python==0.2.8
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/medical-ai-assistant.git
-cd medical-ai-assistant
+git clone https://github.com/mohdfahad20/Post-Discharge-Medical-AI-Assistant.git
+cd Post-Discharge-Medical-AI-Assistant
 
 # 2. Create virtual environment
 python -m venv venv
@@ -499,7 +499,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🙏 Acknowledgments
 
-- **DataSmith AI** - For the internship opportunity
 - **Groq** - For free LLM access
 - **LangChain/LangGraph** - For agent orchestration framework
 - **Comprehensive Clinical Nephrology** - Medical reference material
@@ -509,8 +508,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 📞 Contact
 
 For questions or support:
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/medical-ai-assistant/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/medical-ai-assistant/discussions)
+- 📧 Email: fahadchougle020304@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/mohdfahad20/Post-Discharge-Medical-AI-Assistant/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/mohdfahad20/Post-Discharge-Medical-AI-Assistant/discussions)
 
 ---
